@@ -61,5 +61,5 @@ test(
       }),
     ).toMatchSvgSnapshot(import.meta.path)
   },
-  { timeout: 20000 },
+  20000,
 )

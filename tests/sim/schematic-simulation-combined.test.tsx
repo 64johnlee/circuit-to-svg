@@ -53,7 +53,7 @@ test(
 
     expect(svg).toMatchSvgSnapshot(import.meta.path)
   },
-  { timeout: 30_000 },
+  30_000,
 )
 
 test("applies custom schematic height ratio", async () => {

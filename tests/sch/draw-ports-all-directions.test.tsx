@@ -64,5 +64,5 @@ test(
 
     expect(svg).toMatchSvgSnapshot(import.meta.path)
   },
-  { timeout: 15000 },
+  15000,
 )
